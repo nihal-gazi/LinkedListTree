@@ -29,7 +29,7 @@ class Tree{
     }
 
     public Tree get(int index){
-        if (nodes != null) {return null;}
+        if (nodes == null) {return null;}
         return nodes.get(index);
     }
 
