@@ -143,33 +143,33 @@ public class TestTree {
 **Output:**
 ```
 {
-  "value": "Root",
-  "nodes": [
-    {
-      "value": "Child0",
-      "nodes": []
-    },
-    {
-      "value": "Child1",
-      "nodes": [
-        {
-          "value": "GrandChild1",
-          "nodes": []
-        },
-        {
-          "value": "GrandChild2",
-          "nodes": []
-        }
-      ]
-    },
-    {
-      "value": "Child2",
-      "nodes": []
-    }
-  ]
+"value": "Root",
+"nodes": [
+{
+"value": "Child0",
+"nodes": []
+},
+{
+"value": "Child1",
+"nodes": [
+{
+"value": "GrandChild1",
+"nodes": []
+},
+{
+"value": "GrandChild2",
+"nodes": []
+}
+]
+},
+{
+"value": "Child2",
+"nodes": []
+}
+]
 }
 ```
-
+(Indentation is not yet supported, but I would love any changes. Feel free to e-mail me at `nihalg2006@gmail.com` with **SUBJECT: TREE GITHUB**)
 ### Summary:
 - **Tree** is a class that allows you to create a flexible tree structure where each node can have many children.
 - You can add, retrieve, and delete nodes, and print the structure of the tree in a JSON-like format.
