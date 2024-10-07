@@ -103,8 +103,7 @@ The `Tree` class is used to create and manipulate an N-ary tree, where each node
   tree.printAll();
   ```
   This will print the tree structure in a readable format. For example:
-  ```
-{
+```{
 "value": "Root",
 "nodes": [
 {
@@ -116,8 +115,7 @@ The `Tree` class is used to create and manipulate an N-ary tree, where each node
 "nodes": []
 }
 ]
-}
-  ```
+}```
 
 ### Example Usage:
 ```java
