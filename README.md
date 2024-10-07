@@ -104,19 +104,19 @@ The `Tree` class is used to create and manipulate an N-ary tree, where each node
   ```
   This will print the tree structure in a readable format. For example:
   ```
-  {
-    "value": "Root",
-    "nodes": [
-      {
-        "value": "Child1",
-        "nodes": []
-      },
-      {
-        "value": "Child2",
-        "nodes": []
-      }
-    ]
-  }
+{
+"value": "Root",
+"nodes": [
+{
+"value": "Child1",
+"nodes": []
+},
+{
+"value": "Child2",
+"nodes": []
+}
+]
+}
   ```
 
 ### Example Usage:
