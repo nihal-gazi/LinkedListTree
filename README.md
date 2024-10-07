@@ -1,9 +1,10 @@
 ---
 
-## `Tree` Class Documentation
+# `Tree` Class Documentation
+## (The `TreeLinkedList.java` is only a Helper Class. Main class is `Tree.java`.)
 
 ### Overview:
-> (The `TreeLinkedList.java` is only a Helper Class. Main class is `Tree.java`.)
+
 The `Tree` class is used to create and manipulate an N-ary tree, where each node in the tree can have any number of children. Each node holds a string value (`data`), and its children are stored in a linked list. You can think of it as a tree where each node can have multiple branches (children), and you can add, delete, or retrieve nodes easily.
 
 ### Key Concepts:
